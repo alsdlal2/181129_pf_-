@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+body{ font-family: 'Nanum Gothic',Helvtica,Arial,sans-serif; font-size: 12px; color: #303030; background-color: #eef1f2;}
+
+* a { color: #333; display: block; }
+
+#wrap{max-width: 1663px;min-width: 1024px; height: 100%; overflow-x: hidden;}
+
+header{ width: 100%; height: 66px;background-color: rgba(255,255,255,.95); position: fixed; top: 0; left: 0; text-align: center; z-index: 1000; }
+
+header .logo{ position: absolute;
+top: 20px; left: 12%; float: left;}
+
+header #navi { width: 900px; float: left; padding-left: 30%;}
+
+header #navi li {float:left; display: inline; width: 17%; height: 64px; font-size: 130%; line-height: 64px;}
+
+#container{ position: absolute; top: 0; }
+
+#container #viewc{ width: 1663px; overflow: hidden; height: 774px; position: relative; }
+
+#container #viewc #swiper-container{  width:1663px; height: 774px;  position: absolute; top: 0; left: 0;}
+
+#container #viewc #swiper-container #swiper-wrapper{ width:9978px; position: absolute; top: 0; left: 0; }
+
+#viewc #swiper-wrapper div img { width: 1663px; height: 774px; }
+
+#container #viewc #swiper-container .swiper-slide { display: flex; align-items: center; justify-content: center; float: left; }
+
+#container #viewc #swiper-container ul li {width: 100%; display: inline; }
+
+#viewc #swiper-container .swiper-button-prev{ position: absolute; top:250px; left: 170px; cursor: pointer;z-index: 13; width:83px; height: 154px;}
+
+#viewc #swiper-container .swiper-button-next{ position: absolute; top:250px; right: 170px; cursor: pointer; z-index: 13; width:83px; height: 154px;}
+
+#content{ width: 1341px; position: relative; margin: 0 auto;  height: 762px; }
+
+ #content .Rig {width: 446px; border-left: 1px solid #dfdfdf; float: left; }
+
+
+ #content .LeCe{ width: 894px; float: left; }
+
+
+ #content section{ z-index: 20; background-color: #fff; margin-top: -150px; overflow: hidden; min-height: 400px; display: block;}
+
+ #content section .box1,.box2,.box3,.box4,.box5,.box6{width: 366px; /*padding: 0 20px 0 20px;*/ padding: 40px 40px;  height: 400px; float: left; border-top: 1px solid #dfdfdf; }
+ #content section .box3,.box4,.box6 h2{  }
+
+ #content section .Abox {width: 400px; /*padding: 0 20px 0 20px;*/ padding: 40px 40px;  height: 400px; float: left; border-top: 1px solid #dfdfdf; }
+ #content section .box2,.box4{border-left: 1px solid #dfdfdf; width: 367px; }
+
+
+ #content section div h2{ font-size: 28px; color: #303030; letter-spacing: -2px; text-transform: uppercase; position: relative; margin: 20px 0 20px; padding: 0 0 5px;} 
+
+ #content section div .head{ font-size: 16px; width: 100%; margin: 0 0 15px; font-weight: 550; color: #303030; letter-spacing: -1px; display: block;}
+
+ #content section div p{ font-size: 14px; width: 100%;color: #303030; display: block; line-height: 20px; color: #777;} 
+
+ #content section .box1 p{ font-size: 14px; margin:  0 0 15px; }
+
+ #content section .box1 img{  }
+
+ #content section .box2 p { letter-spacing: -.5px; }
+
+ #content section .box2 li:last-child{ margin-top: 20px; padding: 20px 0 0; border-top: 1px dotted #b7b6b6; }
+
+ #content section .box3 p{ 
+ 	font-size: 16px; margin: 0 0 80px; }
+
+   #content section .box3 img{ margin: 0 auto; }
+   #content section .box3 h2{ margin-top: 20px; }
+   #content section .box4 h2{ margin-top: 20px; }
+ 	 #content section .box6 h2{ margin-top: 20px; }
+
+	
+
+  #content section .box4{ position: relative; }
+
+  #content section .box4 #list2 li{ width: 90px;  display: block; float: left; text-align: center; height: 32px; border: 1px solid #adadad; line-height: 32px; color: #777; margin-top: 20px;}
+  #content section .box4 #list2 li:hover{ cursor: pointer; }
+
+  #content section .box4 #list2 li:nth-child(2){ width: 180px; border-left: none; border-right: none;  }
+
+  .selected {  border-bottom: none; font-weight: bold; color: #111; font-size: 110%; }
+
+  #content section .box4 div{ border: none; max-width: 100%; position: absolute; top: 46%; left: 10%; display: none; height: 100px;}
+
+  #content section .box4 .head{ margin-top: 20px; }
+
+  
+
+  #content section .box4 .coop1{ display: inline; margin-left: 10px; margin-top: 35px; }
+
+
+
+
+
+
+  .box5 div{ border: none; }
+
+  #content section .box5 .Sview{ width: 367px; height: 213px; padding: 0;border: none; position: relative; overflow: hidden; margin: 0 auto; margin-top: 50px;}
+
+   #content section .box5 #swiper-container { width: 367px; height: 213px;  overflow: hidden; border: none; padding: 0; }
+   #content section .box5 #swiper-container #swiper-wrapper { width: 2936px; height: 213px; border: none; position: absolute;
+    top: 5%;padding: 0;}
+
+   #content section .box5 #swiper-container .swiper-slide{ float: left; border: none; height: 213px; width: 367px;padding: 0;}
+
+/* #content section .box5 #swiper-container:nth-child(2){ position: absolute; left: 367px; }
+
+  #content section .box5 #swiper-container:nth-child(3){ position: absolute; left: 734px; }
+
+  #content section .box5 #swiper-container:nth-child(4){ position: absolute; left: 1101px; }
+*/
+  #content section .box5 .swiper-button-next{ width:34px;position: absolute; height: 60px; right: 0; top: 60px; cursor: pointer; border: none; padding: 0;}
+
+  #content section .box5 .swiper-button-prev{ width:34px;position: absolute; height: 60px; left: 0; top: 60px; z-index: 14; cursor: pointer; border: none; padding: 0;}
+
+
+ #content section .box6 img{ margin-top: 30px; }
+
+
+
+
+ #content section div h2:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 3px;
+    width: 21px;
+    height: 2px;
+    background-color: #303030; }
+
+	.IntroCon{ background: url(../images/headerApt.png) no-repeat 50% 0; padding: 480px 0 0; width: 100%; height: 100%; margin: 0; display: block; }
+
+  .IntroCon #content{ border: none; margin: 0 auto; width: 1340px; height: 1704px; }
+    
+   .IntroCon #content div h2{ font-size: 30px; font-weight: bold; margin-top: 0;} 
+
+   .IntroCon #content div h2:after{ content: none; } 
+
+  
+   .IntroCon #content .ititle{ border-bottom: 3px solid #0186e3; height: 41px; overflow: hidden; margin-bottom: 20px; } 
+
+   .IntroCon #content .ititle p{ margin-bottom: 30px; margin-top: 5px; } 
+
+   .IntroCon #content .ititle p{ font-size: 18px;  color: #7e7e7e;} 
+
+   .IntroCon #content .ititle li{ float: left; margin-right: 20px; height: 100%;}
+
+   .IntroCon #content .ititle h2{ background: url(../images/bluebox.png) no-repeat 0 8px; padding-left: 20px;  } 
+
+   .IntroCon #content .section .introduce{ width: 1200px; height: 1704px; }
+      
+    .subPimg1{ width: 1050px; height: 553px; margin: 0 auto; position: relative; margin-bottom: 84px; }
+    .subPimg1 img{ width: 1050px; height: 553px;  top: 0; left: 0;}
+
+  .section{ padding: 70px; float: left; position: relative; margin: 0 auto; border: 1px solid #dfdfdf; }
+  
+  #content .introduce .Sptitle { font-size: 30px;  font-weight: bold; margin-bottom: 33px; }
+
+  #content .introduce .Sptitle2 { font-size: 20px;  font-weight: bold; margin-bottom: 33px; }
+
+  #content .introduce .Sptext { margin-bottom: 70px;  }
+
+  #content .introduce .Sptext p{ color: #434343; font-size: 17px; line-height: 35px;  }
+
+   #content .introduce .Sptpimg { width: 863px; margin: 0 auto; margin-bottom: 117px;}
+
+
+footer{ width: 100%; height: 42px; margin:77px 0 0; clear: both; position: relative; padding: 50px 0;background-color: #eef1f2;}
+
+footer .logo{ position: absolute; left: 160px; top: 40px; }
+
+footer p { position: absolute;
+ right: 160px; top:60px; font-size: 16px; color: #777; }
+
+footer span { padding-left: 50px; }

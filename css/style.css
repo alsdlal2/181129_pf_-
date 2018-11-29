@@ -1,0 +1,115 @@
+@charset "utf-8";
+html{ height: 100%; }
+
+body{width: 100%; height: 100%; font-family:'Malgun Gothic',sans-serif; font-size: 100%;  }
+img{ display: block; }
+div,li{ background: no-repeat; }
+
+* a { display: block; height: 100%;  }
+
+#wrap{ max-width: 1180px; position: relative; margin: 0 auto;}
+
+#over-menu{ width: 100%; height: 100%; position: fixed; background-color: rgba(0,0,0,0.95); color: #fff; z-index: 10; display: none; padding-top: 10px;}
+
+#over-menu a { display: block; }
+
+#over-menu .logo { width: 40%; position: absolute;
+ top: 80px; font-weight: bold; line-height: 120%; }
+
+ #over-menu .logo a{ color: #fff; }
+
+ #over-menu .logo .mainlogo span{ color: #fff; font-size: 190%;}
+
+ #over-menu .logo .sublogo span{ font-size: 80%; color: #cccccf; }
+
+#over-menu .nav{position: absolute; left: 5%; top: 35%; bottom:5%; right: 5%; font-size: 320%; text-align: center; line-height: 80px; }
+#over-menu .nav li{ margin-top: 6px; }
+
+#over-menu .nav a { color: #fff; transition: .3s;}
+
+#over-menu .nav a:hover { color: red; display: block; }
+
+#over-menu .close { position: absolute; top:80px; right: 0; cursor: pointer; background: url(../images/close.png); transition: .4s; width: 56px; height: 56px;}
+
+#over-menu .close:hover { background: url(../images/closeH.png); }
+
+#topdiv{ display: block; height: 160px; position: relative; top: 50px;}
+
+#topdiv .logo { width: 40%; position: absolute;
+ top: 40px; font-weight: bold; line-height: 120%; }
+
+ #topdiv .logo a{ color: #fff; }
+
+ #topdiv .logo .mainlogo span{ color: #000; font-size: 190%;}
+
+ #topdiv .logo .sublogo span{ font-size: 80%; color: #999; }
+
+
+#potitle{ display: block; height: 160px; position: relative; top: 50px; }
+
+#potitle #title{ font-size: 280%; float: left; }
+
+#potitle #title2{ font-size: 90%; float: left; line-height: 140%; color: #999; margin: 5px 0 0 15px;}
+
+div .ham{width: 56px; height: 56px; 
+position: absolute; top:40px; right: 0; background: url(../images/ham.png); transition: .4s;}
+
+div .ham:hover{width: 56px; height: 56px;  background: url(../images/hamH.png); cursor: pointer;}
+
+#portimg{ width: 100%; min-height: 2010px; position: relative;}
+
+.left { position: absolute; left: 0;  }
+.left div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #ff582b; text-indent: -9999%; }
+.left li:first-child div{ background:url(../images/DongMoon.png); }
+
+.center { position: absolute; margin-left: 20%; left: 180px;  }
+.center div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #0f181f; text-indent: -9999%; }
+
+.right { position: absolute; right: 0;  }
+.right div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #d0aa2d; text-indent: -9999%; }
+
+#portimg ul li{background-color: #000; background-image:url(../images/iconplus.png); background-size:cover; 
+	background-position:center;;  }
+
+#portimg ul div {  transition: .3s; z-index: 100; }
+#portimg ul div:hover { opacity: 0.3; }
+
+#portimg ul:hover li{ cursor: pointer; }
+
+.aboutWr{margin: 0 auto; margin-bottom: 60px; padding: 10px 0; background: #f1f1f1;  overflow: hidden; margin-top: 2%; }
+.topAb{ max-width: 100px;  margin: 0 auto; }
+.aboutA{ font-size: 200%; margin: 0 auto; line-height: 150%; float: left; margin-bottom: 10px; }
+.aboutC{ clear: both; width: 100%;  margin: 0 auto; max-width: 1180px; }
+.Abox{ float: left;width: 350px; margin-left: 18%;  }
+.Bbox{ float: left;width: 350px; margin-left: 16%;  }
+.div01{ width: 100px;  float: left; font-size:120%;margin-bottom: 24px;  }
+.div01 li{ margin-bottom: 30px; }
+
+
+
+.div02 li{ margin-bottom: 35px; }
+
+.div02 li:nth-child(1){ margin-left: 115px; }
+
+.div02 li:nth-child(2){ margin-left: 115px; }
+
+.div02 li:nth-child(3){ margin-left: 115px; }
+
+.div03{ float: left; margin-bottom: 24px; width: 90px;font-size:120%;}
+.div03 li{ margin-bottom: 77px; }
+	
+.div04 li{ margin-bottom: 5px; }
+
+.div05{ margin-top: 40px; }
+.div05 span{ padding-left: 10px;letter-spacing: 5px; }
+.div05 li:nth-child(1) span{ padding-left: 32px; }
+.div05 li:nth-child(2) span{ padding-left: 52px; }
+.div05 li:nth-child(3) span{ padding-left: 13px; }
+.div05 li{ margin-bottom: 20px; }
+.div05 li:last-child{ margin-left: 90px; }
+
+
+#footter{ clear: both; width: 100%; height: 73px; background-color: #f1f1f1;text-align: center; padding: 50px 0;}
+#footter #address{ padding-top: 20px; font-weight: bold; font-size: 90%;}
+#footter #address span{ color: red; font-weight: normal; }
+#footter #copy{ padding-top: 20px; font-weight: bold; color: #757575; font-size: 80%}
