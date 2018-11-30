@@ -69,7 +69,7 @@ div .ham:hover{width: 56px; height: 56px;  background: url(../images/hamH.png); 
 .right div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #d0aa2d; text-indent: -9999%; }
 
 #portimg ul li{background-color: #000; background-image:url(../images/iconplus.png); background-size:cover; 
-	background-position:center;;  }
+	background-position:center;  }
 
 #portimg ul div {  transition: .3s; z-index: 100; }
 #portimg ul div:hover { opacity: 0.3; }
