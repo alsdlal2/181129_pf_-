@@ -39,3 +39,37 @@
 			$("#TopMenu").stop(true).animate({ backgroundColor:'rgba(0,0,0,0)',				color:'#fff' }, 250);
 		}
 	});
+
+ $(window).on("scroll",function () {
+		var ht = $(window).height();
+		var scroll = $(window).scrollTop();
+
+		/*if(scroll>=ht*0 && scroll<ht*1){//첫번째 메뉴의 두번째 페이지 영역
+			$("#sideBtn li").removeClass();
+			$("#sideBtn li").eq(0).addClass('on');
+		}
+
+		if(scroll>=ht*1 && scroll<ht*2){//첫번째 메뉴의 두번째 페이지 영역
+			$("#sideBtn li").removeClass();
+			$("#sideBtn li").eq(1).addClass('on');
+		}
+		if(scroll>=ht*2 && scroll<ht*3){//두번째 메뉴의 두번째 페이지 영역
+			$("#sideBtn li").removeClass();
+			$("#sideBtn li").eq(2).addClass('on');
+		}
+		if(scroll>=ht*3 && scroll<ht*4){//세번째 메뉴의 두번째 페이지 영역
+			$("#sideBtn li").removeClass();
+			$("#sideBtn li").eq(3).addClass('on');
+		}
+		if(scroll>=ht*4 && scroll<ht*5){//네번째 메뉴의 두번째 페이지 영역
+			$("#sideBtn li").removeClass();
+			$("#sideBtn li").eq(4).addClass('on');
+		}*/
+		for(var i=0; i<6; i++){//0~3까지 1씩 증가
+			if(scroll>=ht*i && scroll<ht*(i+1)){
+				$("#sideBtn span").removeClass();
+				$("#sideBtn span").eq(i).addClass('on');
+			}
+		}
+	});
+

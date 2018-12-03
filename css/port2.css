@@ -4,10 +4,11 @@ html,body{ width:100%;  }
 
 body {font-family:'Poppins','Nanum Gothic',sans-serif;}
 /* 내비게이션 */
-#sideBtn { position:fixed; right:0; top:50%; bottom:50%; margin:auto; height:240px; z-index:99;}
+.on { width: 18px; height: 18px; margin: 12px; }
 
-#sideBtn a{background-color: #fff; text-align:right; text-transform:capitalize; display:block; width:12px; height:12px;border-radius: 100%;  box-sizing:border-box; transition:.5s; margin: 14px; border: 2px solid #000; }
+#sideBtn { position:fixed; right:0; top:50%; bottom:50%; margin:auto; height:240px; z-index:99; transition: .3s;}
 
+ span {background-color: #fff; text-align:right; text-transform:capitalize; display:block; width:12px; height:12px;border-radius: 100%;  box-sizing:border-box; transition:.5s; margin: 14px; border: 2px solid #000; }
 
 
 #TopMenu { position: fixed; z-index: 999; width: 100%; margin: 0 auto; height: 50px;}
