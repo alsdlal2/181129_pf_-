@@ -40,6 +40,8 @@
 		}
 	});
 
+
+
  $(window).on("scroll",function () {
 		var ht = $(window).height();
 		var scroll = $(window).scrollTop();
