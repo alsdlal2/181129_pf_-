@@ -4,26 +4,25 @@ body{ font-family: 'Nanum Gothic',Helvtica,Arial,sans-serif; font-size: 12px; co
 
 * a { color: #333; display: block; }
 
-#wrap{max-width: 1663px;min-width: 1024px; height: 100%; overflow-x: hidden;}
+#wrap{min-width: 1024px;min-width: 1024px; height: 100%; overflow-x: hidden; margin: 0 auto;}
 
 header{ width: 100%; height: 66px;background-color: rgba(255,255,255,.95); position: fixed; top: 0; left: 0; text-align: center; z-index: 1000; }
 
 header .logo{ position: absolute;
 top: 20px; left: 12%; float: left;}
 
-header #navi { width: 900px; float: left; padding-left: 30%;}
+header #navi { width: 100%; float: left; padding-left: 30%;}
 
-header #navi li {float:left; display: inline; width: 17%; height: 64px; font-size: 130%; line-height: 64px;}
+header #navi li {float:left; display: inline; width: 10%; height: 64px; font-size: 130%; line-height: 64px;}
 
-#container{ position: absolute; top: 0; }
+#container{width: 100%; position: absolute; top: 0; }
 
-#container #viewc{ width: 1663px; overflow: hidden; height: 774px; position: relative; }
+#container #viewc{ width: 100%; overflow: hidden; height: 774px; position: relative; }
 
-#container #viewc #swiper-container{  width:1663px; height: 774px;  position: absolute; top: 0; left: 0;}
+#container #viewc #swiper-container{  width:100%; height: 774px;  position: absolute; top: 0; left: 0;}
+#container #viewc #swiper-container img{  width:100%;}
 
 #container #viewc #swiper-container #swiper-wrapper{ width:9978px; position: absolute; top: 0; left: 0; }
-
-#viewc #swiper-wrapper div img { width: 1663px; height: 774px; }
 
 #container #viewc #swiper-container .swiper-slide { display: flex; align-items: center; justify-content: center; float: left; }
 
@@ -132,7 +131,9 @@ header #navi li {float:left; display: inline; width: 17%; height: 64px; font-siz
     height: 2px;
     background-color: #303030; }
 
-	.IntroCon{ background: url(../images/headerApt.png) no-repeat 50% 0; padding: 480px 0 0; width: 100%; height: 100%; margin: 0; display: block; }
+	.IntroCon{ background: url(../images/headerApt.png) no-repeat 50% 0;
+    background-size: contain;
+   padding: 480px 0 0; width: 100%; height: 100%; margin: 0; display: block; }
 
   .IntroCon #content{ border: none; margin: 0 auto; width: 1340px; height: 1704px; }
     

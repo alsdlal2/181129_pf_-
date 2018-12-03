@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+html,body{ width:100%;  }
+
+body {font-family:'Poppins','Nanum Gothic',sans-serif;}
+/* 내비게이션 */
+#sideBtn { position:fixed; right:0; top:50%; bottom:50%; margin:auto; height:240px; z-index:99;}
+
+#sideBtn a{background-color: #fff; text-align:right; text-transform:capitalize; display:block; width:12px; height:12px;border-radius: 100%;  box-sizing:border-box; transition:.5s; margin: 14px; border: 2px solid #000; }
+
+
+
+#TopMenu { position: fixed; z-index: 999; width: 100%; margin: 0 auto; height: 50px;}
+#TopMenu div{ float: left; }
+#TopMenu .Menubox{ font-size: 0.75em; color: #fff; width: 34%;  padding: 0 3%;}
+
+#TopMenu .Rmbox{ font-size: 0.75em; color: #fff; text-align: right;}
+
+#TopMenu .CLogo h2{ font-size: 1.75em; color: #fff;}
+#TopMenu .CLogo{ width: 20%; margin-top: .7%; text-align: center;}
+
+#TopMenu li { padding: 17.5px; position: relative;
+display: inline-block; }
+#TopMenu a { color: #fff; }
+
+/* 각 페이지 레이아웃 */
+article { width:100%; height:938px; 
+	background-size:cover; background-position:right center; background-attachment:fixed;background-size: cover; position:relative; overflow:hidden; }
+article:nth-child(1) { background-image:url(../ptFimages/shoe1.png); }
+article:nth-child(2) { background-image:url(../ptFimages/shoe2.png); }
+article:nth-child(3) { background-image:url(../ptFimages/shoe3.png); }
+article:nth-child(4) { background-image:url(../ptFimages/shoe4.png); }
+article:nth-child(5) { background-image:url(../ptFimages/shoe5.png); }
+
+/* 컨텐츠 내 텍스트 */
+
+section{ 
+position: absolute;
+left: 90px; bottom: 90px;
+ }
+
+ section h2{     
+ 	font-size: 54px;
+    line-height: 52px;
+    padding: 20px 0;
+    color: #fff; text-transform: uppercase; }
+
+    section p { font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 40px;
+    color: #fff;
+    width: 600px; }
+
+    section a{ font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #fff;
+    padding: 5px 30px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 2px;transition: 0.5s; }
+
+    section a:hover{ background: #fff; color: #333 }
+
+    article:last-child { height: 300px; }
+
+    article:last-child a { text-decoration: none;
+    color: #000;
+    font-family: 'Poppins','Nanum Gothic',나눔고딕,serif;
+    font-size: 100%;  }
+
+    footer i { border: 1px solid #000; border-radius: 100%; width: 32px; height: 32px; text-align: center; display: inline-block; line-height: 0;}
+
+    footer i:before{
+    line-height: 32px; }
+
+    footer i:hover{ color: #fff; background-color: #000; }
+
+    #Sdiv{ width: 385px; overflow: hidden; margin: 0 auto; margin-top: 100px; }
+    
+    form{ display: block; }
+
+    #keyword{     width: 80%;
+    padding: 2px 4px;
+    border: 0;
+    box-sizing: border-box;
+    background: none;
+    vertical-align: middle;
+    font-size: 11px;
+    line-height: 36px;
+    height: 36px;
+    float: left; }
+
+    .Sbtn{ width: 20%;
+    border: 0 none;
+    float: right;
+    box-sizing: border-box;
+    font-size: 11px;
+    line-height: 36px;
+    color: #fff;
+    background: #000;
+    border-left: 2px solid #000; cursor: pointer;}
+
+    .Sbtn:hover{ background-color: #fff; color: #000;  }
+
+    fieldset{ line-height: 0;
+    border: 2px solid #000;
+    box-sizing: border-box; }
+
+    .footer{ text-align: center;
+border-top: 1px solid #d7d7d7;
+    clear: both; }
+
+    .footerInfo{ height: 60px; line-height: 60px; margin-top: 10%; }
+    .footerInfo li { display: inline-block; padding: 0 12px; font-size: 20px; font-weight: normal;}
+
+    ul{ display: block; }
+
+    .snsIcon { margin: 25px 0 20px; }
+    .snsIcon li{ display: inline-block; padding: 0 10px;  }
+
+    .Psinfo{ font-size: 11px;
+    line-height: 20px;
+    margin: 20px 0; }
+
+    .Psinfo strong{ font-size: 20px; line-height: 30px; font-weight: bold;}
+
+    .Cominfo{     font-size: 11px;
+    line-height: 24px; }
