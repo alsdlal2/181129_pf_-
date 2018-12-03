@@ -64,7 +64,7 @@ div .ham:hover{width: 56px; height: 56px;  background: url(../images/hamH.png); 
 
 .center { position: absolute; margin-left: 20%; left: 180px;  }
 .center div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #0f181f; text-indent: -9999%; }
-.center li:first-child div{ background:url(../images/Shoeshop.png); }
+.center li:first-child div{ background:url(../images/Shoeshop.png) }
 
 .right { position: absolute; right: 0;  }
 .right div{ width: 360px; height: 280px; margin-bottom: 50px; background-color: #d0aa2d; text-indent: -9999%; }
